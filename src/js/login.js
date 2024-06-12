@@ -29,9 +29,9 @@ const validar = (event) => {
     const senha = document.getElementById('senha').value
 
     if (email == '' || email == undefined || email == null) {
-        alert('Email vázio, confira o email!!')
+        alert('Email vázio,confira o email!!')
     } else if (senha == '' || senha == undefined || senha == null) {
-        alert('Senha vázia, confira a senha!!')
+        alert('Senha vázia,confira a senha!!')
     } else {
         if (usuario.email == email && usuario.senha == senha) {
             window.location.href = './dashboard.html';
