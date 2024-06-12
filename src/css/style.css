@@ -8,6 +8,7 @@
 :root {
     --dark-blue: #00005a;
     --light-blue: #0054ff;
+    --cyan: #00f3ff;
     --bg-black: #1a1a1a;
     --white-default: #fff;
     --linear-gradient: linear-gradient(73deg, #0054ff -0.65%, #00005a 99.23%), #000;
