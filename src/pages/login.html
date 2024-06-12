@@ -36,16 +36,37 @@
                 <li class="item-menu"><a href="" class="link-menu">Carros</a></li>
                 <li class="item-menu"><a href="" class="link-menu">Desenvolvedores</a></li>
                 <li id="link-login">
-                    <div class="icon">
-                        <img src="../assets/icon-user.svg" alt="Icone de usuário">
-                    </div>
-                    <a href="" id="btn-login">Login</a>
+                    <a href="" id="btn-login">
+                        <div class="icone">
+                            <img src="../assets/icon-user.svg" alt="Icone de usuário">
+                        </div>
+                        Login
+                    </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <img src="../assets/bg-login-1.png" alt="background de uma imagem ilustrativa para a pagina de login"
+            class="bg-login" id="imageBanner">
+        <form>
+            <div class="titulo">
+                <img src="../assets/formulae-logo-small.png" alt="Logo da formulaE pequena" class="logo-titulo">
+                <h1>Login</h1>
+            </div>
+            <div class="box-input">
+                <div class="group">
+                    <span class='icon'><i class="fa-solid fa-user"></i></span>
+                    <input class="input" id="email" type='text' placeholder='Email' autocomplete="off" required />
+                </div>
+                <div class="group">
+                    <span class='icon'><i class="fa-solid fa-lock"></i></span>
+                    <input class="input" id="senha" type='password' placeholder="Senha" autocomplete="off" required />
+                    <span class='icon-password'><i class="fa-regular fa-eye" id="icon-password"></i></span>
+                </div>
+            </div>
+            <button onclick="validar(event)">Entrar</button>
+        </form>
     </main>
     <footer>
         <div class="contt-email">
@@ -73,7 +94,8 @@
         </div>
     </footer>
 
-    <script src="src/js/comum.js"></script>
+    <script src="../js/comum.js"></script>
+    <script src="../js/login.js"></script>
 </body>
 
 </html>

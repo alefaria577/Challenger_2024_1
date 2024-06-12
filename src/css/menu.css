@@ -10,15 +10,11 @@ header {
 
 /**** Btn Login ****/
 #link-login {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 8px 12px;
     border-radius: 10px;
     background: var(--linear-gradient);
 }
 
-#link-login .icon {
+#link-login .icone {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +26,11 @@ header {
 }
 
 #btn-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 12px;
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--white-default);
