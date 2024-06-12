@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/circuitos.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/cb4f3aa626.js" crossorigin="anonymous"></script>
-    
+
     <title>Circuitos</title>
 </head>
+
 <body>
     <header>
         <img src="../assets/formulae-logo.png" alt="Logo da FormulaE">
@@ -30,66 +34,150 @@
                 <li class="item-menu"><a href="" class="link-menu">Carros</a></li>
                 <li class="item-menu"><a href="" class="link-menu">Desenvolvedores</a></li>
                 <li id="link-login">
-                    <div class="icon">
-                        <img src="../assets/icon-user.svg" alt="Icone de usuário">
-                    </div>
-                    <a href="src/pages/login.html" id="btn-login">Login</a>
+                    <a href="" id="btn-login">
+                        <div class="icone">
+                            <img src="../assets/icon-user.svg" alt="Icone de usuário">
+                        </div>
+                        Login
+                    </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="main-container">
-            <div class="banner-inicio">
-                <img class="img-inicio" src="../imgs-circuito/main-banner.png" alt="Imagem Principal">
-                <h1>Circuitos</h1>
+        <h1 class="titulo">Circuitos</h1>
+
+        <section class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="bg-corrida">
+                        <div class="box-corrida">
+                            <h3>Próxima Corrida</h3>
+                            <div class="box-info">
+                                <div class="info-corrida">
+                                    <div class="data">
+                                        <p>29</p>
+                                        <span>JUN</span>
+                                    </div>
+                                    <img src="../imgs-circuito/portland-bandeira.png"
+                                        alt="bandeira do pais de origem do circuito da próxima corrida">
+                                </div>
+                                <img src="../imgs-circuito/portland-corrida.png" class="img-corrida"
+                                    alt="Circuito da próxima corrida">
+                            </div>
+                            <h4>Portland</h4>
+                        </div>
+                    </div>
+                    <div class="tempo-corrida">
+                        <p id="round">ROUND 13</p>
+                        <p id="time">01:00:06</p>
+                    </div>
+                </div>
             </div>
-            
-            <section class="boxs-content">
-                <div class="box" id="proxima-corrida">
-                    <div class="parte-1">
-                        <h2 class="titulo1">Proxima corrida:</h2>
-                        <h2 class="data">29</h2>
-                        <p class="data">JUN</p>
-                        <img class="flag-img1" src="../imgs-circuito/portland-bandeira.png" alt="Bandeira Portland">
-                        <img class="race-img1" src="../imgs-circuito/portland-corrida.png" alt="Corrida Portland">
-                    </div>
-                    <div class="parte2">
-                        <h2 class="titulo2">PORTLAND</h2>
-                        <p>ROUND 13</p>
-                        <p>01:00:06</p>
-                    </div>
-                </div>
-
-                <div class="box" id="berlim">
-                    <img class="flag-img2" src="../imgs-circuito/berlin-bandeira.png" alt="Bandeira Berlin">
-                    <h2 class="capita2">Berlim</h2>
-                    <img class="race-img2" src="../imgs-circuito/berlin-corrida.png" alt="Berlin Corrida">
-                </div>
-
-                <div class="box" id="portland">
-                    <img class="flag-img3" src="../imgs-circuito/portland-bandeira.png" alt="Bandeira Portland">
-                    <h2 class="capital3">Portland</h2>
-                    <img class="race-img3" src="../imgs-circuito/portland-corrida.png" alt="Corrida Portland">
-                </div>
-                <div class="box" id="shangai">
-                    <img class="flag-img4" src="../imgs-circuito/shangai-bandeira.png" alt="Bandeira Shangai">
-                    <h2 class="capital4">Shangai</h2>
-                    <img class="race-img4" src="../imgs-circuito/shangai-corrida.png" alt="Corrida Shangai">
-                </div>
+            <div class="card">
                 <div class="box">
-                    <img class="flag-img5" src="../imgs-circuito/londres-bandeira.png" alt="">
-                    <h2 class="capital5">Londres</h2>
-                    <img class="race-img5" src="../imgs-circuito/londres-corrida.png" alt="">
+                    <div class="bg-titulo">
+                        <div class="titulo-card">
+                            <img src="../imgs-circuito/berlin-bandeira.png"
+                                alt="Bandeira do pais de origem do circuito">
+                            <h3>Berlim</h3>
+                        </div>
+                    </div>
+                    <img src="../imgs-circuito/berlin-corrida.png" class="img-card" alt="Imagem do circuito de berlim">
                 </div>
+            </div>
+            <div class="card">
                 <div class="box">
-                    <img class="flag-img6" src="../imgs-circuito/monaco-bandeira.png" alt="">
-                    <h2 class="capital6">Monaco</h2>
-                    <img class="race-img6" src="../imgs-circuito/monaco-corrida.png" alt="">
+                    <div class="bg-titulo">
+                        <div class="titulo-card">
+                            <img src="../imgs-circuito/berlin-bandeira.png"
+                                alt="Bandeira do pais de origem do circuito">
+                            <h3>Berlim</h3>
+                        </div>
+                    </div>
+                    <img src="../imgs-circuito/berlin-corrida.png" class="img-card" alt="Imagem do circuito de berlim">
                 </div>
-            </section>
-        </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="bg-titulo">
+                        <div class="titulo-card">
+                            <img src="../imgs-circuito/berlin-bandeira.png"
+                                alt="Bandeira do pais de origem do circuito">
+                            <h3>Berlim</h3>
+                        </div>
+                    </div>
+                    <img src="../imgs-circuito/berlin-corrida.png" class="img-card" alt="Imagem do circuito de berlim">
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="bg-titulo">
+                        <div class="titulo-card">
+                            <img src="../imgs-circuito/berlin-bandeira.png"
+                                alt="Bandeira do pais de origem do circuito">
+                            <h3>Berlim</h3>
+                        </div>
+                    </div>
+                    <img src="../imgs-circuito/berlin-corrida.png" class="img-card" alt="Imagem do circuito de berlim">
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="bg-titulo">
+                        <div class="titulo-card">
+                            <img src="../imgs-circuito/berlin-bandeira.png"
+                                alt="Bandeira do pais de origem do circuito">
+                            <h3>Berlim</h3>
+                        </div>
+                    </div>
+                    <img src="../imgs-circuito/berlin-corrida.png" class="img-card" alt="Imagem do circuito de berlim">
+                </div>
+            </div>
+        </section>
+        <!-- <section class="boxs-content">
+            <div class="box" id="proxima-corrida">
+                <div class="parte-1">
+                    <h2 class="titulo1">Proxima corrida:</h2>
+                    <h2 class="data">29</h2>
+                    <p class="data">JUN</p>
+                    <img class="flag-img1" src="../imgs-circuito/portland-bandeira.png" alt="Bandeira Portland">
+                    <img class="race-img1" src="../imgs-circuito/portland-corrida.png" alt="Corrida Portland">
+                </div>
+                <div class="parte2">
+                    <h2 class="titulo2">PORTLAND</h2>
+                    <p>ROUND 13</p>
+                    <p>01:00:06</p>
+                </div>
+            </div>
 
+            <div class="box" id="berlim">
+                <img class="flag-img2" src="../imgs-circuito/berlin-bandeira.png" alt="Bandeira Berlin">
+                <h2 class="capita2">Berlim</h2>
+                <img class="race-img2" src="../imgs-circuito/berlin-corrida.png" alt="Berlin Corrida">
+            </div>
+
+            <div class="box" id="portland">
+                <img class="flag-img3" src="../imgs-circuito/portland-bandeira.png" alt="Bandeira Portland">
+                <h2 class="capital3">Portland</h2>
+                <img class="race-img3" src="../imgs-circuito/portland-corrida.png" alt="Corrida Portland">
+            </div>
+            <div class="box" id="shangai">
+                <img class="flag-img4" src="../imgs-circuito/shangai-bandeira.png" alt="Bandeira Shangai">
+                <h2 class="capital4">Shangai</h2>
+                <img class="race-img4" src="../imgs-circuito/shangai-corrida.png" alt="Corrida Shangai">
+            </div>
+            <div class="box">
+                <img class="flag-img5" src="../imgs-circuito/londres-bandeira.png" alt="">
+                <h2 class="capital5">Londres</h2>
+                <img class="race-img5" src="../imgs-circuito/londres-corrida.png" alt="">
+            </div>
+            <div class="box">
+                <img class="flag-img6" src="../imgs-circuito/monaco-bandeira.png" alt="">
+                <h2 class="capital6">Monaco</h2>
+                <img class="race-img6" src="../imgs-circuito/monaco-corrida.png" alt="">
+            </div>
+        </section> -->
     </main>
 
     <footer>
@@ -118,6 +206,7 @@
         </div>
     </footer>
 
-    <script src="../js/circuitos.js"></script>
+    <script src="../js/comum.js"></script>
 </body>
+
 </html>

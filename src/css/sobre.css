@@ -1,101 +1,105 @@
-.sec1{
-    width: 100%;
+body {
+    overflow-x: hidden;
+}
+
+.sec1 {
+    width: 100vw;
     height: 100%;
 }
 
-.box1{
+.box1 {
     display: flex;
     align-items: center;
     justify-content: left;
 }
 
-.box1 img{
+.box1 img {
     display: flex;
     width: 100vw;
     height: 12vh;
 }
 
-.box1 h1{
+.box1 h1 {
     font-size: 2em;
     position: absolute;
     margin-left: 7rem;
     color: aliceblue;
 }
 
-.box2{
+.box2 {
     display: flex;
     width: 100%;
     height: 70vh;
     justify-content: center;
     align-items: center;
 }
-.box2 img{
+.box2 img {
     width: 55vw;
 }
 
-.box2 p{
+.box2 p {
     font-size: 32px;
     padding: 80px;
 }
 
-.sec2{
+.sec2 {
     width: 100%;
     height: 100%;
 }
 
-.sec2 h1{
+.sec2 h1 {
     margin-bottom: 45px;
     text-align: center;
-    color: #00005A;
+    color: #00005a;
 }
 
-.container-tech{
+.container-tech {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
     width: 100%;
 }
 
-.info-tech{
+.info-tech {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
     padding: 16px 24px;
-    border: 2px solid #D1C7C7;
+    border: 2px solid #d1c7c7;
 }
 
-.info-tech img{
+.info-tech img {
     width: 30vw;
     height: 30vh;
     border-radius: 20px;
     border: 0.29px solid #00343c;
 }
 
-.text-tech{
+.text-tech {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.text-tech h3{
+.text-tech h3 {
     margin-top: 8px;
     font-size: 2rem;
     font-weight: 600;
-    color: #00005A;
+    color: #00005a;
 }
 
-.text-tech p{
+.text-tech p {
     font-size: 100%;
     font-weight: 400;
-    color: black
+    color: black;
 }
 
 @media (max-width: 1440px) {
     body {
         background-color: var(--color2-light-green);
     }
-    .box2 p{
+    .box2 p {
         font-size: 25px;
     }
     .info-tech img {
@@ -123,7 +127,7 @@
         background-color: var(--color2-light-green);
     }
 
-    .box2 p{
+    .box2 p {
         font-size: 25px;
         padding: 10px;
     }
@@ -148,7 +152,7 @@
 }
 
 @media (max-width: 640px) {
-    .box2 p{
+    .box2 p {
         font-size: 13px;
         padding: 10px;
     }
@@ -176,7 +180,7 @@
 }
 
 @media (max-width: 480px) {
-    .box2 p{
+    .box2 p {
         font-size: 13px;
         padding: 10px;
     }
@@ -201,4 +205,3 @@
         font-size: 0.6rem;
     }
 }
-
