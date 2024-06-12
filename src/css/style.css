@@ -6,6 +6,9 @@
 }
 
 :root {
+    --dark-blue: #00005a;
+    --light-blue: #0054ff;
+    --cyan: #00f3ff;
     --bg-black: #1a1a1a;
     --white-default: #fff;
     --linear-gradient: linear-gradient(73deg, #0054ff -0.65%, #00005a 99.23%), #000;
@@ -75,12 +78,12 @@ footer {
     font-size: 1.25rem;
     border-radius: 100%;
     transition: 0.5s ease;
-    background-color: var(--white-default);
-    color: var(--color2-light-green);
+    background: var(--white-default);
+    color: var(--bg-black);
 }
 
 .icon-media:hover {
-    background-color: var(--color1-dark-green);
+    background: var(--linear-gradient);
     color: var(--white-default);
 }
 
