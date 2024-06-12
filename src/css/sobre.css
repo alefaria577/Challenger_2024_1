@@ -34,6 +34,7 @@
 }
 
 .box2 p{
+    font-size: 32px;
     padding: 80px;
 }
 
@@ -43,6 +44,7 @@
 }
 
 .sec2 h1{
+    margin-bottom: 45px;
     text-align: center;
     color: #00005A;
 }
@@ -93,6 +95,9 @@
     body {
         background-color: var(--color2-light-green);
     }
+    .box2 p{
+        font-size: 25px;
+    }
     .info-tech img {
         width: 100%;
         height: 50%;
@@ -117,6 +122,12 @@
     body {
         background-color: var(--color2-light-green);
     }
+
+    .box2 p{
+        font-size: 25px;
+        padding: 10px;
+    }
+
     .container-tech {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -137,6 +148,11 @@
 }
 
 @media (max-width: 640px) {
+    .box2 p{
+        font-size: 13px;
+        padding: 10px;
+    }
+
     .info-tech {
         display: flex;
         flex-direction: row;
@@ -160,6 +176,11 @@
 }
 
 @media (max-width: 480px) {
+    .box2 p{
+        font-size: 13px;
+        padding: 10px;
+    }
+
     .info-tech {
         width: 100%;
         gap: 40px;
