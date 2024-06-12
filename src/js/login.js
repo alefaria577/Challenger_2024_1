@@ -3,8 +3,8 @@ var indexSlide = 0
 var time = 3000
 
 const usuario = {
-    email: 'maritimo@gmail.com',
-    senha: 'Costa1234@'
+    email: 'luiz@gmail.com',
+    senha: '1234'
 }
 
 document.getElementById('icon-password').addEventListener('click', () => {
@@ -24,17 +24,54 @@ document.getElementById('icon-password').addEventListener('click', () => {
 
 const validar = (event) => {
     event.preventDefault()
+    Swal.fire({
+        title: "O que deseja fazer ?",
+        color: '#1a1a1a',
+        icon: "success",
+        iconColor: '#0054ff',
+        showDenyButton: true,
+        confirmButtonColor: "#00005a",
+        denyButtonColor: "#00005a",
+        confirmButtonText: "Ir para o dashboard",
+        denyButtonText: 'Jogar Quiz'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            alert('fuii')
+        } else if (result.isDenied) {
+            alert('teste')
+        } else {
+            alert('POC')
+        }
+    })
 
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
 
     if (email == '' || email == undefined || email == null) {
-        alert('Email vázio, confira o email!!')
+        alert('Email vázio,confira o email!!')
     } else if (senha == '' || senha == undefined || senha == null) {
-        alert('Senha vázia, confira a senha!!')
+        alert('Senha vázia,confira a senha!!')
     } else {
         if (usuario.email == email && usuario.senha == senha) {
-            window.location.href = './dashboard.html';
+            Swal.fire({
+                title: "O que deseja fazer ?",
+                color: '#1a1a1a',
+                icon: "success",
+                iconColor: '#0054ff',
+                showDenyButton: true,
+                confirmButtonColor: "#00005a",
+                denyButtonColor: "#00005a",
+                confirmButtonText: "Ir para o dashboard",
+                denyButtonText: 'Jogar Quiz'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    alert('fuii')
+                } else if (result.isDenied) {
+                    alert('teste')
+                } else {
+                    alert('POC')
+                }
+            })
         } else {
             alert('Usuário ou senha inválidos')
         }

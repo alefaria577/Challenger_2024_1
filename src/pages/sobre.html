@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Links CSS -->
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/style.css">
+              <!-- Links CSS -->
+    <link rel="stylesheet" href="/src/css/sobre.css">
+    <link rel="stylesheet" href="/src/css/menu.css">
+    <link rel="stylesheet" href="/src/css/style.css">
 
     <!-- Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cb4f3aa626.js" crossorigin="anonymous"></script>
 
-    <!-- Sweetalert -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <title>Formula E - Login</title>
+    <title>Formula E - Sobre</title>
 </head>
-
 <body>
     <header>
-        <img src="../assets/formulae-logo.png" alt="Logo da FormulaE">
+        <img src="/src/assets/formulae-logo.png" alt="Logo da FormulaE">
         <nav>
             <div class="menuToggle" id="menuToggle">
                 <span class="menu-span unclicked"></span>
@@ -40,37 +32,55 @@
                 <li class="item-menu"><a href="" class="link-menu">Carros</a></li>
                 <li class="item-menu"><a href="" class="link-menu">Desenvolvedores</a></li>
                 <li id="link-login">
-                    <a href="" id="btn-login">
-                        <div class="icone">
-                            <img src="../assets/icon-user.svg" alt="Icone de usuário">
-                        </div>
-                        Login
-                    </a>
+                    <div class="icon">
+                        <img src="/src/assets/icon-user.svg" alt="Icone de usuário">
+                    </div>
+                    <a href="/src/pages/login.html" id="btn-login">Login</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <img src="../assets/bg-login-1.png" alt="Background de uma imagem ilustrativa para a pagina de login"
-            class="bg-login" id="imageBanner">
-        <form>
-            <div class="titulo">
-                <img src="../assets/formulae-logo-small.png" alt="Logo da formulaE pequena" class="logo-titulo">
-                <h1>Login</h1>
+        <section class="sec1">
+            <div class="box1">
+                <h1>O que é a Formula E:</h1>
+                <img src="/src/assets/backgroundTop.png" alt="">
             </div>
-            <div class="box-input">
-                <div class="group">
-                    <span class='icon'><i class="fa-solid fa-user"></i></span>
-                    <input class="input" id="email" type='text' placeholder='Email' autocomplete="off" required />
+            <div class="box2">
+                <p>A Fórmula E é uma categoria de corridas automobilísticas que se destaca por sua abordagem pioneira e sustentável. Desde o seu lançamento em 2014, a Fórmula E tem desafiado as convenções do automobilismo tradicional ao utilizar exclusivamente veículos elétricos de alta performance. Essa iniciativa não apenas promove a conscientização sobre a importância da mobilidade elétrica, mas também impulsiona a inovação tecnológica, servindo como um campo de testes para o desenvolvimento de tecnologias de propulsão limpa.</p>
+                <img src="/src/assets/car-sobre.png" alt="">
+
+            </div>
+        </section>
+
+        <section class="sec2">
+            <h1>AS CORRIDAS DE FÓRMULA E SÃO CORRIDAS DE ALTA VELOCIDADE COM...</h1>
+            <div class="container-tech">
+                <div class="info-tech" id="info-inovacao">
+                    <img src="/src/assets/box1-sobre.png" alt="">
+                    <div class="text-tech">
+                    <h3>Inovação e aceleração recorde</h3>
+                    <p>Pináculo do desempenho.</p>
+                    </div>
                 </div>
-                <div class="group">
-                    <span class='icon'><i class="fa-solid fa-lock"></i></span>
-                    <input class="input" id="senha" type='password' placeholder="Senha" autocomplete="off" required />
-                    <span class='icon-password'><i class="fa-regular fa-eye" id="icon-password"></i></span>
+                <div class="info-tech" id="info-cidades">
+                    <img src="/src/assets/box2-sobre.png" alt="">
+                    <div class="text-tech">
+                    <h3>Entretenimento eletrizante nas maiores cidades</h3>
+                    <p>11 locais globais.</p>
+                    </div>
+                </div>
+                <div class="info-tech" id="info-corrida">
+                    <img src="/src/assets/box3-sobre.png" alt="">
+                    <div class="text-tech">
+                    <h3>A corrida em direção a um futuro mais limpo e mais rápido</h3>
+                    <p>Sem emissões de gases desde o dia zero.</p>
+                    </div>
                 </div>
             </div>
-            <button onclick="validar(event)">Entrar</button>
-        </form>
+
+        </section>
+
     </main>
     <footer>
         <div class="contt-email">
@@ -97,9 +107,7 @@
             <a href="#" class="icon-media"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </footer>
-
-    <script src="../js/comum.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="/src/js/comum.js"></script>
+    <script src="/src/js/sobre.js"></script>
 </body>
-
 </html>
