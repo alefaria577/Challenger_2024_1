@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Links CSS -->
-    <link rel="stylesheet" href="src/css/inicio.css">
-    <link rel="stylesheet" href="src/css/menu.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="../css/desenvolvedores.css">
 
     <!-- Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +20,7 @@
 
 <body>
     <header>
-        <img src="src/assets/formulae-logo.png" alt="Logo da FormulaE">
+        <img src="../assets/formulae-logo.png" alt="Logo da FormulaE">
         <nav>
             <div class="menuToggle" id="menuToggle">
                 <span class="menu-span unclicked"></span>
@@ -30,14 +28,14 @@
                 <span class="menu-span unclicked"></span>
             </div>
             <ul class="menu" id="menu">
-                <li class="item-menu"><a href="#" class="link-menu">Home</a></li>
-                <li class="item-menu"><a href="src/pages/sobre.html" class="link-menu">Sobre</a></li>
-                <li class="item-menu"><a href="src/pages/circuitos.html" class="link-menu">Circuitos</a></li>
-                <li class="item-menu"><a href="src/pages/desenvolvedores.html" class="link-menu">Desenvolvedores</a></li>
+                <li class="item-menu"><a href="../../index.html" class="link-menu">Home</a></li>
+                <li class="item-menu"><a href="sobre.html" class="link-menu">Sobre</a></li>
+                <li class="item-menu"><a href="circuitos.html" class="link-menu">Circuitos</a></li>
+                <li class="item-menu"><a href="" class="link-menu">Desenvolvedores</a></li>
                 <li id="link-login">
-                    <a href="src/pages/login.html" id="btn-login">
+                    <a href="login.html" id="btn-login">
                         <div class="icone">
-                            <img src="src/assets/icon-user.svg" alt="Icone de usuário">
+                            <img src="../assets/icon-user.svg" alt="Icone de usuário">
                         </div>
                         Login
                     </a>
@@ -46,17 +44,39 @@
         </nav>
     </header>
     <main>
-        <section class="sec-inicio">
-            <span id="box-1"></span>
-            <span id="box-2"></span>
-            <div class="content-inicio">
-                <h1>FormulaE a corrida com carros elétricas com alta performance </h1>
-                <a href="#" class="link-inicio">Saber mais</a>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="../imgs-desenvolvedor/luiz.png" style="width:100%">
             </div>
-        </section>
-        <div class="box-img">
-            <img src="src/assets/carro-inicio.png" alt="Carro inicial">
+            <div class="mySlides fade">
+                <img src="../imgs-desenvolvedor/alexandre.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="../imgs-desenvolvedor/marcelo.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="../imgs-desenvolvedor/Milena.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="../imgs-desenvolvedor/evellyn.png" style="width:100%">
+            </div>
+
+
+            <!-- Controles anterior/próximo -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <br>
+        <!-- Pontos/círculos -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        
+       
     </main>
     <footer>
         <div class="contt-email">
@@ -84,7 +104,7 @@
         </div>
     </footer>
 
-    <script src="src/js/comum.js"></script>
+    <script src="../js/comum.js"></script>
 </body>
 
 </html>
