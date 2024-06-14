@@ -7,6 +7,8 @@
 
     <!-- Links CSS -->
     <link rel="stylesheet" href="../css/desenvolvedores.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,11 +31,11 @@
             </div>
             <ul class="menu" id="menu">
                 <li class="item-menu"><a href="../../index.html" class="link-menu">Home</a></li>
-                <li class="item-menu"><a href="sobre.html" class="link-menu">Sobre</a></li>
-                <li class="item-menu"><a href="circuitos.html" class="link-menu">Circuitos</a></li>
-                <li class="item-menu"><a href="" class="link-menu">Desenvolvedores</a></li>
+                <li class="item-menu"><a href="../pages/sobre.html" class="link-menu">Sobre</a></li>
+                <li class="item-menu"><a href="../pages/circuitos.html" class="link-menu">Circuitos</a></li>
+                <li class="item-menu"><a href="../pages/desenvolvedores.html" class="link-menu">Desenvolvedores</a></li>
                 <li id="link-login">
-                    <a href="login.html" id="btn-login">
+                    <a href="../pages/login.html" id="btn-login">
                         <div class="icone">
                             <img src="../assets/icon-user.svg" alt="Icone de usuário">
                         </div>
@@ -44,39 +46,10 @@
         </nav>
     </header>
     <main>
+        <h1 class="titulo">Desenvolvedores</h1>
+        <section class="container" id="container">
 
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="../imgs-desenvolvedor/luiz.png" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="../imgs-desenvolvedor/alexandre.png" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="../imgs-desenvolvedor/marcelo.png" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="../imgs-desenvolvedor/Milena.png" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="../imgs-desenvolvedor/evellyn.png" style="width:100%">
-            </div>
-
-
-            <!-- Controles anterior/próximo -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-        <!-- Pontos/círculos -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
-        
-       
+        </section>
     </main>
     <footer>
         <div class="contt-email">
@@ -105,6 +78,7 @@
     </footer>
 
     <script src="../js/comum.js"></script>
+    <script src="../js/desenvolvedores.js"></script>
 </body>
 
 </html>
