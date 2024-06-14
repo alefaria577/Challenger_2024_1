@@ -2,7 +2,7 @@ main {
     display: flex;
     height: 80vh;
     width: 100vw;
-    background: linear-gradient(to top right, #0054FF, #00005A);
+    background: linear-gradient(to top right, #0054ff, #00005a);
 }
 
 .bg-contato {
@@ -29,7 +29,7 @@ form {
     align-items: center;
     gap: 28px;
     width: 70%;
-    height: 70%;
+    height: max-content;
     border-radius: 10px;
     background-color: var(--white-default);
     padding: 1.5rem 3rem;
@@ -48,7 +48,7 @@ form button {
     border: initial;
     border-radius: 10px;
     color: #ffffff;
-    background-color: #00005A;
+    background-color: #00005a;
     min-width: 160px;
     min-height: 50px;
 }
@@ -62,7 +62,7 @@ form button {
 .titulo h1 {
     font-size: 4rem;
     font-weight: 600;
-    color: #00005A;
+    color: #00005a;
 }
 
 .titulo img {
