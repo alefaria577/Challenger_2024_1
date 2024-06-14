@@ -94,6 +94,64 @@ header {
     font-weight: 500;
 }
 
+@media (min-width: 540px) and (max-width: 1080px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .link-menu {
+        font-size: clamp(0.75rem, 0.5rem + 0.7407vw, 1rem) !important;
+    }
+
+    /**** Btn Login ****/
+    #link-login {
+        border-radius: 10px;
+    }
+
+    #link-login .icone {
+        padding: 6px;
+        border-radius: 100%;
+    }
+
+    #btn-login {
+        gap: 12px;
+        padding: 4px 8px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 800px) {
+    /**** Btn Login ****/
+    #link-login {
+        border-radius: 10px;
+    }
+
+    #link-login .icone {
+        padding: 6px;
+        border-radius: 100%;
+    }
+
+    .icone img {
+        width: auto;
+        height: 12px;
+    }
+
+    header img {
+        height: 20% !important;
+        width: auto;
+    }
+
+    #btn-login {
+        gap: 6px;
+        padding: 4px 8px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+}
+
 @media (max-width: 1080px) {
     header img {
         height: 60%;
