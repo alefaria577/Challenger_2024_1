@@ -76,3 +76,140 @@ main {
     border-radius: 4px;
     background: var(--linear-gradient);
 }
+
+@media (max-width: 1600px) {
+    #box-2 {
+        top: 24%;
+    }
+
+    .content-inicio h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .box-img img {
+        height: 70%;
+        width: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content-inicio h1 {
+        font-size: 1.5rem;
+    }
+
+    .link-inicio {
+        font-size: 14px;
+        margin-top: 1rem;
+        width: 120px;
+        height: 50px;
+    }
+
+    #box-1 {
+        width: 180px;
+        height: 20px;
+        left: 0;
+        transform: rotate(-31.381deg);
+    }
+
+    #box-2 {
+        width: 226px;
+        left: 380px;
+    }
+
+    .sec-inicio {
+        padding-left: 190px;
+    }
+
+    .box-img img {
+        height: 50%;
+        width: auto;
+    }
+}
+
+@media (max-width: 840px) {
+    .content-inicio h1 {
+        font-size: 1.5rem;
+    }
+
+    .link-inicio {
+        font-size: 14px;
+        margin-top: 1rem;
+        width: 120px;
+        height: 50px;
+    }
+
+    .sec-inicio {
+        padding-left: 120px;
+    }
+
+    #box-1 {
+        width: 120px;
+        height: 20px;
+        left: 0;
+    }
+
+    #box-2 {
+        width: 200px;
+        height: 20px;
+        top: 25%;
+        left: 35%;
+    }
+
+    .content-inicio h1 {
+        font-size: 1.25rem;
+    }
+    .box-img img {
+        height: 40%;
+        width: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .sec-inicio {
+        width: 80vw;
+        padding-left: 140px;
+    }
+
+    .content-inicio h1 {
+        font-size: 2rem;
+    }
+
+    .box-img img {
+        display: none;
+    }
+
+    #box-1 {
+        width: 120px;
+        height: 20px;
+        left: 0;
+    }
+
+    #box-2 {
+        width: 200px;
+        height: 20px;
+        top: 25%;
+        left: 60%;
+    }
+}
+
+@media (max-width: 540px) {
+    #box-1 {
+        display: none;
+    }
+    #box-2 {
+        display: none;
+    }
+
+    .sec-inicio {
+        width: 100vw;
+        padding-left: 60px;
+    }
+
+    .content-inicio {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
