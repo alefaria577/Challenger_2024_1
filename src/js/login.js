@@ -50,7 +50,7 @@ const validar = (event) => {
                 } else if (result.isDenied) {
                     window.location.href = './quiz.html'
                 } else {
-                    alert('Escolha uma opção para seguir após o login!')
+                    window.location.href = './dashboard.html'
                 }
             })
         } else {
