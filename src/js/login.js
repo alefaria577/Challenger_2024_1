@@ -24,25 +24,6 @@ document.getElementById('icon-password').addEventListener('click', () => {
 
 const validar = (event) => {
     event.preventDefault()
-    Swal.fire({
-        title: "O que deseja fazer ?",
-        color: '#1a1a1a',
-        icon: "success",
-        iconColor: '#0054ff',
-        showDenyButton: true,
-        confirmButtonColor: "#00005a",
-        denyButtonColor: "#00005a",
-        confirmButtonText: "Ir para o dashboard",
-        denyButtonText: 'Jogar Quiz'
-    }).then((result) => {
-        if (result.isConfirmed) {
-            alert('fuii')
-        } else if (result.isDenied) {
-            alert('teste')
-        } else {
-            alert('POC')
-        }
-    })
 
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
@@ -67,9 +48,9 @@ const validar = (event) => {
                 if (result.isConfirmed) {
                     alert('fuii')
                 } else if (result.isDenied) {
-                    alert('teste')
+                    window.location.href = './quiz.html'
                 } else {
-                    alert('POC')
+                    alert('Escolha uma opção para seguir após o login!')
                 }
             })
         } else {

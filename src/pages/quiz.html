@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Links CSS -->
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/quiz.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/style.css">
 
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <title>Formula E - Login</title>
+    <title>Formula E - Quiz</title>
 </head>
 
 <body>
@@ -50,26 +50,21 @@
         </nav>
     </header>
     <main>
-        <img src="../assets/bg-login-1.png" alt="Background de uma imagem ilustrativa para a pagina de login"
-            class="bg-login" id="imageBanner">
-        <form>
-            <div class="titulo">
-                <img src="../assets/formulae-logo-small.png" alt="Logo da formulaE pequena" class="logo-titulo">
-                <h1>Login</h1>
-            </div>
-            <div class="box-input">
-                <div class="group">
-                    <span class='icon'><i class="fa-solid fa-user"></i></span>
-                    <input class="input" id="email" type='text' placeholder='Email' autocomplete="off" required />
-                </div>
-                <div class="group">
-                    <span class='icon'><i class="fa-solid fa-lock"></i></span>
-                    <input class="input" id="senha" type='password' placeholder="Senha" autocomplete="off" required />
-                    <span class='icon-password'><i class="fa-regular fa-eye" id="icon-password"></i></span>
+        <h1 class="titulo">Quiz</h1>
+        <section class="container">
+            <p class="txt-welcome">Bem-vindo ao quiz game da Fórmula E, onde a velocidade elétrica encontra a diversão!
+            </p>
+            <h1>A CORRIDA DO CONHECIMENTO SE INICIA, VAMOS LÁ! </h1>
+            <button type="submit" onclick="quiz(event)" class="btn-start">Comece agora</button>
+            <div class="questoes">
+                <p>As respostas apareceram no fim do jogo.</p>
+                <div id="box-questoes">
+                    <!-- <p>1. Teste</p>
+                    <p>2. Teste2</p>
+                    <p>3. Teste3</p> -->
                 </div>
             </div>
-            <button onclick="validar(event)">Entrar</button>
-        </form>
+        </section>
     </main>
     <footer>
         <div class="contt-email">
@@ -98,7 +93,8 @@
     </footer>
 
     <script src="../js/comum.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/quiz.js"></script>
+    <script src="../js/perguntas.js"></script>
 </body>
 
 </html>
