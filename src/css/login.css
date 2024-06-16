@@ -45,6 +45,12 @@ form {
     gap: 1rem;
 }
 
+.box-input a {
+    text-align: end;
+    width: 100%;
+    color: white;
+}
+
 .icon i {
     color: #222424;
 }
