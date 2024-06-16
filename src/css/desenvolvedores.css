@@ -47,7 +47,10 @@ main {
 }
 
 #nome {
-    color: var(--cyan);
+    background: linear-gradient(90deg, #ffe804 0%, #ff7631 49.5%, #ff09f5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: clamp(0.75rem, -1.5rem + 3.3333vw, 2.5rem);
     font-weight: 700;
 }
