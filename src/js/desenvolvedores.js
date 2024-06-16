@@ -3,12 +3,12 @@ const boxes = [
         <div class="card">
             <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Luiz Gustavo0</p>
-                <span id="idade">18 anos</span>
+                <p id="nome">Alexandre Silva de Faria</p>
+                <span id="idade">24 anos</span>
                 <p id="area">Dev. Full-Stack</p>
                 <div class="media">
-                    <a href="#" class="icon-card"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/alefaria577" class="icon-card"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/alexandrefariadev/ " class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -17,12 +17,12 @@ const boxes = [
         <div class="card">
             <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Luiz Gustavo1</p>
-                <span id="idade">18 anos</span>
-                <p id="area">Dev. Full-Stack</p>
+                <p id="nome">Evellyn Valencia</p>
+                <span id="idade">20 anos</span>
+                <p id="area">Dev. Front-End</p>
                 <div class="media">
-                    <a href="#" class="icon-card"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/evojeda" class="icon-card"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/evellyn-valencia-5b11082a5?trk=contact-info" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@ const boxes = [
         <div class="card">
             <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Luiz Gustavo2</p>
+                <p id="nome">Luiz Gustavo</p>
                 <span id="idade">18 anos</span>
                 <p id="area">Dev. Full-Stack</p>
                 <div class="media">
