@@ -50,17 +50,23 @@
         <div class="container">
             <section class="corrida">
                 <h2>Corrida</h2>
-                <div class="prox-corrida">
+                <div class="prox-corrida" id="prox-corrida" onclick="verCorrida()">
                     <div class="box-corrida">
                         <div class="info-corrida">
-                            <img src="/src/imgs-dashboard/próx-corrida.png" alt="Bandeira do pais do mapa">
+                            <img src="../imgs-dashboard/próx-corrida.png" alt="Bandeira do pais do mapa">
                         </div>
                     </div>
                 </div>
-            <section class="colocacao">
-                <h2>Carros</h2>
-                <img src="/src/imgs-dashboard/carros.png" alt="Mapa do circuito">
-            </section>
+                <section class="colocacao">
+                    <h2>Carros</h2>
+                    <div class="carros">
+                        <img src="../imgs-dashboard/carro1.png" onclick="verCarro(this)" data-id="1" alt="carro 1">
+                        <img src="../imgs-dashboard/carro2.png" onclick="verCarro(this)" data-id="2" alt="carro 2">
+                        <img src="../imgs-dashboard/carro3.png" onclick="verCarro(this)" data-id="3" alt="carro 3">
+                        <img src="../imgs-dashboard/carro4.png" onclick="verCarro(this)" data-id="4" alt="carro 4">
+                        <img src="../imgs-dashboard/carro5.png" onclick="verCarro(this)" data-id="5" alt="carro 5">
+                    </div>
+                </section>
             </section>
         </div>
     </main>
