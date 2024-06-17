@@ -3,7 +3,7 @@ var indexSlide = 0
 var time = 3000
 
 const usuario = {
-    email: 'luiz@gmail.com',
+    email: 'player@gmail.com',
     senha: '1234'
 }
 
