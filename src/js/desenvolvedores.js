@@ -1,9 +1,9 @@
 const boxes = [
     `<div class="bg-card">
         <div class="card">
-            <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
+            <img src="../assets/pic-alexandre.jpg" class="img-card radius" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Alexandre Silva de Faria</p>
+                <p id="nome">Alexandre Silva</p>
                 <span id="idade">24 anos</span>
                 <p id="area">Dev. Full-Stack</p>
                 <div class="media">
@@ -15,7 +15,7 @@ const boxes = [
     </div>
         <div class="bg-card">
         <div class="card">
-            <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
+            <img src="../assets/pic-evellyn.jpg" class="img-card radius" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
                 <p id="nome">Evellyn Valencia</p>
                 <span id="idade">20 anos</span>
@@ -43,14 +43,14 @@ const boxes = [
     </div>
     <div class="bg-card">
         <div class="card">
-            <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
+            <img src="../assets/pic-marcello.jpg" class="img-card" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Luiz Gustavo3</p>
-                <span id="idade">18 anos</span>
+                <p id="nome">Marcello</p>
+                <span id="idade">20 anos</span>
                 <p id="area">Dev. Full-Stack</p>
                 <div class="media">
-                    <a href="#" class="icon-card"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MarcelloFMoreira" class="icon-card"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/marcello-moreira-879a8a205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -74,14 +74,28 @@ const boxes = [
 const boxes2 = [
     `<div class="bg-card">
         <div class="card">
-            <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
+            <img src="../assets/pic-alexandre.jpg" class="img-card radius" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Luiz Gustavo0</p>
-                <span id="idade">18 anos</span>
+                <p id="nome">Alexandre Silva</p>
+                <span id="idade">24 anos</span>
                 <p id="area">Dev. Full-Stack</p>
                 <div class="media">
-                    <a href="#" class="icon-card"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/alefaria577" class="icon-card"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/alexandrefariadev/ " class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>`,
+    `<div class="bg-card">
+        <div class="card">
+            <img src="../assets/pic-evellyn.jpg" class="img-card radius" alt="Imagem do desenvolvedor Luiz">
+            <div class="box-info">
+                <p id="nome">Evellyn Valencia</p>
+                <span id="idade">20 anos</span>
+                <p id="area">Dev. Front-End</p>
+                <div class="media">
+                    <a href="https://github.com/evojeda" class="icon-card"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/evellyn-valencia-5b11082a5?trk=contact-info" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -90,21 +104,7 @@ const boxes2 = [
         <div class="card">
             <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Luiz Gustavo1</p>
-                <span id="idade">18 anos</span>
-                <p id="area">Dev. Full-Stack</p>
-                <div class="media">
-                    <a href="#" class="icon-card"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>`,
-    `<div class="bg-card">
-        <div class="card">
-            <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
-            <div class="box-info">
-                <p id="nome">Luiz Gustavo2</p>
+                <p id="nome">Luiz Gustavo</p>
                 <span id="idade">18 anos</span>
                 <p id="area">Dev. Full-Stack</p>
                 <div class="media">
@@ -116,14 +116,14 @@ const boxes2 = [
     </div>`,
     `<div class="bg-card">
         <div class="card">
-            <img src="../assets/pic-luiz.png" class="img-card" alt="Imagem do desenvolvedor Luiz">
+            <img src="../assets/pic-luiz.png" class="img-card radius" alt="Imagem do desenvolvedor Luiz">
             <div class="box-info">
-                <p id="nome">Luiz Gustavo3</p>
-                <span id="idade">18 anos</span>
+                <p id="nome">Marcello</p>
+                <span id="idade">20 anos</span>
                 <p id="area">Dev. Full-Stack</p>
                 <div class="media">
-                    <a href="#" class="icon-card"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MarcelloFMoreira" class="icon-card"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/marcello-moreira-879a8a205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="icon-card"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
