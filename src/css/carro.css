@@ -28,8 +28,8 @@ section {
     font-size: 1.5em;
 }
 
-.header h2 {
-    font-size: 3em;
+#modelo {
+    font-size: clamp(4rem, 1.0909rem + 14.5455vw, 6rem);
 }
 
 .car-image img {
@@ -44,6 +44,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, minmax(150px, 1fr));
     gap: 10px;
+    margin-top: 2rem;
 }
 
 .carro {

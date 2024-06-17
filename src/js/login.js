@@ -46,11 +46,9 @@ const validar = (event) => {
                 denyButtonText: 'Jogar Quiz'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    alert('fuii')
+                    window.location.href = './dashboard.html'
                 } else if (result.isDenied) {
                     window.location.href = './quiz.html'
-                } else {
-                    window.location.href = './dashboard.html'
                 }
             })
         } else {

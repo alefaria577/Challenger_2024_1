@@ -3,6 +3,10 @@ main {
     width: 100vw;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .titulo {
     display: flex;
     align-items: center;
@@ -29,6 +33,10 @@ main {
     background-position: end;
 }
 
+.prox-corrida {
+    cursor: pointer;
+}
+
 .corrida {
     display: flex;
     flex-direction: column;
@@ -42,7 +50,7 @@ main {
     color: #fff;
 }
 
-.info-corrida img{
+.info-corrida img {
     width: 90vw;
     height: auto;
 }
@@ -53,10 +61,10 @@ main {
     color: #fff;
 }
 
-.colocacao img{
+.carros img {
+    cursor: pointer;
     width: 90vw;
     height: auto;
-    
 }
 
 @media (max-width: 920px) {
@@ -74,14 +82,14 @@ main {
         width: 100%;
         gap: 10px;
     }
-    
+
     .corrida h2 {
         font-size: 40px;
         font-weight: 600;
         color: #fff;
     }
 
-    .info-corrida img{
+    .info-corrida img {
         width: 90vw;
         height: 15vh;
     }
@@ -102,14 +110,14 @@ main {
         width: 9vw;
         gap: 20px;
     }
-    
+
     .corrida h2 {
         font-size: 40px;
         font-weight: 600;
         color: #fff;
     }
 
-    .info-corrida img{
+    .info-corrida img {
         width: 90vw;
         height: 15vh;
     }
