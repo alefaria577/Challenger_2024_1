@@ -16,7 +16,6 @@ Após o login você será redirecionado para o dashboard de visualização dos d
 ## Links
 
 - [Figma](https://www.figma.com/design/vrP3ayZnWP8znxz65N6mTC/Sistema-Web---FormulaE?node-id=0-1&t=8X0K1NgZg2GYdqYy-1)
-- [Deploy](https://group-lemmatech.github.io/FormulaE-WebDev/)
 
 ## Desenvolvedores
 | Desenvolvedor | Avatar | RM |
