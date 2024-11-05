@@ -40,12 +40,12 @@ main {
 #box-2 {
     display: flex;
     z-index: 1;
-    width: 226px;
+    width: 150px;
     height: 20px;
     transform: rotate(-31.355deg);
     position: absolute;
-    top: 240px;
-    left: 400px;
+    top: 250px;
+    left: 320px;
     background: var(--linear-gradient);
     transform: rotate(-31.381deg);
 }
