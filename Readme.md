@@ -3,6 +3,10 @@
 ![](src/assets/screen.png)
 
 
+<h3>Link do projeto</h3>
+
+<p><a href="https://challenger-parte1.vercel.app/" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>
+
 ## Sobre
 Este projeto foi desenvolvido para abordar um problema identificado pela Mahindra, a organização oficial da Fórmula E, relacionado à falta de visibilidade da categoria. Para solucionar essa questão, criamos um sistema web que funcionará como uma plataforma de divulgação, permitindo que as pessoas conheçam mais sobre a Fórmula E e interajam com o conteúdo. O sistema inclui diversas funcionalidades, como painéis de controle (dashboard), informações sobre os carros e corridas, além de um quiz interativo e jogável, projetado para aumentar o interesse e o engajamento do público com as corridas.
 
